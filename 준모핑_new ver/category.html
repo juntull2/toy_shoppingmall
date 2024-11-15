@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>토이/인형 - 이모션캐슬</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="category.css">
+    <link href="https://fonts.googleapis.com/css2?family=Gaegu&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="playful-header">
+        <div class="header-top">
+            <div class="user-menu">
+                <a href="#"><i class="fas fa-gift"></i> 이벤트</a>
+                <a href="#"><i class="fas fa-user"></i> 로그인</a>
+                <a href="#"><i class="fas fa-heart"></i> 찜리스트</a>
+                <a href="#"><i class="fas fa-shopping-cart"></i> 장바구니</a>
+            </div>
+        </div>
+
+        <div class="logo-container">
+            <div class="logo-placeholder"></div>
+        </div>
+
+        <nav class="bubble-nav">
+            <a href="#" class="bubble rainbow" data-modal="new-modal">NEW</a>
+            <a href="#" class="bubble star" data-modal="best-modal">BEST</a>
+            <a href="#" class="bubble">토이/인형</a>
+            <a href="#" class="bubble">교육/블록</a>
+            <a href="#" class="bubble">캐릭터샵</a>
+            <a href="#" class="bubble">출산/유아</a>
+            <a href="#" class="bubble">키즈패션</a>
+            <a href="#" class="bubble sale" data-modal="sale-modal">SALE</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="category-header">
+            <div class="breadcrumb">
+                <a href="#">홈</a> > <a href="#">토이/인형</a>
+            </div>
+            <h1>토이/인형</h1>
+        </div>
+
+        <div class="category-filter">
+            <div class="filter-section">
+                <div class="filter-group">
+                    <label>연령별</label>
+                    <button class="filter-btn active">전체</button>
+                    <button class="filter-btn">0-12개월</button>
+                    <button class="filter-btn">13-24개월</button>
+                    <button class="filter-btn">25-36개월</button>
+                    <button class="filter-btn">4-7세</button>
+                </div>
+                <div class="filter-group">
+                    <label>브랜드</label>
+                    <button class="filter-btn active">전체</button>
+                    <button class="filter-btn">레고</button>
+                    <button class="filter-btn">실바니안</button>
+                    <button class="filter-btn">피셔프라이스</button>
+                </div>
+            </div>
+            <div class="sort-section">
+                <select>
+                    <option>추천순</option>
+                    <option>신상품순</option>
+                    <option>낮은가격순</option>
+                    <option>높은가격순</option>
+                    <option>리뷰많은순</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="product-grid">
+            <!-- 상품 카드 반복 (메인 페이지와 동일한 구조) -->
+            <div class="product-card">
+                <div class="product-image">
+                    <div class="product-img-placeholder"></div>
+                    <div class="hover-buttons">
+                        <button><i class="fas fa-cart-plus"></i></button>
+                        <button><i class="fas fa-heart"></i></button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <span class="brand">레고</span>
+                    <h3>듀플로 동물원 세트</h3>
+                    <div class="rating">
+                        <span class="stars">⭐⭐⭐⭐⭐</span>
+                        <span class="review-count">(123)</span>
+                    </div>
+                    <p class="price">
+                        <span class="discount">20%</span>
+                        <span class="original">49,000원</span>
+                        <span class="final">39,200원</span>
+                    </p>
+                    <div class="tags">
+                        <span class="tag-new">NEW</span>
+                        <span class="tag-best">BEST</span>
+                        <span class="tag-free-shipping">무료배송</span>
+                    </div>
+                </div>
+            </div>
+            <!-- 추가 상품 카드들 -->
+        </div>
+
+        <div class="pagination">
+            <button class="page-btn"><i class="fas fa-chevron-left"></i></button>
+            <button class="page-btn active">1</button>
+            <button class="page-btn">2</button>
+            <button class="page-btn">3</button>
+            <button class="page-btn">4</button>
+            <button class="page-btn">5</button>
+            <button class="page-btn"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </main>
+
+    <!-- 푸터는 index.html과 동일 -->
+</body>
+</html> 
